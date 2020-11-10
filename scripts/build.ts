@@ -8,7 +8,10 @@ export const DIST = path.join(__dirname, '..', 'dist')
 
 export function build() {
   esbuild.buildSync({
-    entryPoints: [path.join(SRC, 'app.tsx'), path.join(SRC, 'worker.ts')],
+    entryPoints: [
+      path.join(SRC, 'app.tsx'),
+      // path.join(SRC, 'worker.ts')
+    ],
     outdir: DIST,
     logLevel: 'info',
     bundle: true,
