@@ -1,0 +1,33 @@
+{
+  "name": "ffmpeg-wasm-study",
+  "version": "0.0.0",
+  "description": "Working demo for FFMpeg WASM",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node scripts/watch.ts",
+    "build": "ts-node scripts/build.ts",
+    "test": "jest"
+  },
+  "repository": "Leko/ffmpeg-wasm-study",
+  "author": "Leko <leko.noor@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg/core": "^0.8.2",
+    "@ffmpeg/ffmpeg": "^0.9.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/browser-sync": "^2.26.1",
+    "@types/fs-extra": "^9.0.3",
+    "@types/node": "^14.14.7",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "browser-sync": "^2.26.13",
+    "esbuild": "^0.8.5",
+    "fs-extra": "^9.0.1",
+    "prettier": "^2.1.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
